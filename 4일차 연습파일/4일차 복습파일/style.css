@@ -1,9 +1,12 @@
 header {
     height: 86px;
+    background-color: #f1f1f1;
 }
 main {
     height: 400vh;
+    background-color: #dddddd;
 }
 footer {
     height: 68px;
+    background-color: #cfcfcf;
 }
