@@ -2,7 +2,7 @@ body {
     border: 1px solid #bfd6be;
     background: #FFF;
 }
-
+ 
 header {
     border-bottom: 2px solid #bfd6be;
     height: 86px;
@@ -33,7 +33,7 @@ main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    
 }
 .sct01-rbox01 {
     background-color: cornflowerblue;
