@@ -1,4 +1,9 @@
-body {
-    border: 1px solid #E3E3E3;
-    background: #FFF;
+header {
+    border-bottom: 2px solid #E3D3E3;
+}
+main {
+    border-bottom: 2px dashed #E3D3E3;
+}
+footer {
+    border-bottom: 2px solid #E3D3E3
 }
