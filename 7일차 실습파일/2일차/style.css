@@ -1,0 +1,118 @@
+body {
+    border: 1px solid #bfd6be;
+    background: #fff;
+}
+header {
+    height: 86px;
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    background-color: rgb(179, 187, 187);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nav-box01 {
+    width: 92px; height: 12px;
+    border-radius: 2px;
+    background-color: burlywood;
+}
+.nav-box02 {
+    width: 112px; height: 12px;
+    border-radius: 2px;
+    background-color: burlywood;
+}
+.nav-box03 {
+    width: 148px; height: 12px;
+    border-radius: 2px;
+    background-color: burlywood;
+}
+.nav-box04 {
+    width: 72px; height: 12px;
+    border-radius: 2px;
+    background-color: burlywood;
+}
+.nav-box05 {
+    width: 88px; height: 12px;
+    border-radius: 2px;
+    background-color: burlywood;
+}
+h1 {
+    background-color: #786fab;
+    width: 228px; height: 25px;
+    border-radius: 2px;
+}
+use {
+    background-color: #bfd6be;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.use-box01 {
+    background-color: aquamarine;
+    width: 68px; height: 12px;
+    border-radius: 2px;
+}
+.use-box02 {
+    background-color: aquamarine;
+    width: 92px; height: 12px;
+    border-radius: 2px;
+}
+.use-box03 {
+    background-color: aquamarine;
+    width: 58px; height: 12px;
+    border-radius: 2px;
+}
+.use-box04 {
+    background-color: aquamarine;
+    width: 84px; height: 12px;
+    border-radius: 2px;
+}
+.use-box05 {
+    background-color: aquamarine;
+    width: 36px; height: 12px;
+    border-radius: 2px;
+}
+main {
+    border-bottom: 2px dashed #bfd6be;
+    /* width: 1920px; */
+    height: 2600px;
+    padding: 64px;
+}
+.sct-01, .sct-02, .sct-03, .sct-04 {
+    background-color: #bfd6be;
+    border-bottom: 1px solid #000
+}
+.sct-01 {
+    display: flex;
+    gap: 20px;
+}
+.sct01-left {
+    width: 1100px; height: 610px;
+    background-color: gold;
+}
+.sct01-right {
+    background-color: #786fab;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sct01-rbox01 {
+    background-color: darkseagreen;
+    flex-grow: 1;
+}
+.sct01-rbox02 {
+    background-color: darkmagenta;
+    flex-grow: 1;
+}
+
+footer {
+    height: 68px;
+    background-color: #cfd1d1;
+}
