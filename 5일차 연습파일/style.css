@@ -1,13 +1,12 @@
 header {
     height: 86px;
     background-color: #f3f3f3;
-    display:  flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 nav {
     background-color: #8fafe4;
-
 }
 .nav-box01 {
     width: 92px; height: 12px;
@@ -40,6 +39,8 @@ h1 {
 }
 .use-box {
     background-color: #5aa8b8;
+    width: 228px; height: 25px;
+    border-radius: 2px;
 }
 main {
     height: 400vh;
