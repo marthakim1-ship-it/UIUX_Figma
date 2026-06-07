@@ -5,6 +5,17 @@ header {
 main {
     border-bottom: 2px dashed #E3D3E3;
     width: 1920px; height: 2526px;
+    padding: 64px;
+}
+.sct-01, .sct-02, .sct-03, .sct-04 {
+    background-color: #dddddd;
+    border-bottom: 1px solid #000;
+}
+.sct-01 {
+    display: flex;
+}
+.sct01-left {
+    width: 1100px; height: ;
 }
 footer {
     height: 68px;
