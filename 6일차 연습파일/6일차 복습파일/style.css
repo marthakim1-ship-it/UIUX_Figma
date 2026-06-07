@@ -1,9 +1,12 @@
 header {
     border-bottom: 2px solid #E3D3E3;
+    width: 1920px; height: 86px;
 }
 main {
     border-bottom: 2px dashed #E3D3E3;
+    width: 1920px; height: 2526px;
 }
 footer {
+    height: 68px;
     border-bottom: 2px solid #E3D3E3
-}
+} 
