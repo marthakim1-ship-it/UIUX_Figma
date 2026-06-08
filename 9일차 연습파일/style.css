@@ -1,65 +1,14 @@
-body {
-    border: 1px solid #bfd6be;
-    background: #FFF;
-}
-
-header {
-    border-bottom: 2px solid #bfd6be;
-    height: 86px;
-}
-main {
-    border-bottom: 2px dashed #bfd6be;
-    /* width: 1920px; */
-    height: 2526px;
-    padding: 64px;
-}
-
-.sct-01, .sct-02, .sct-03, .sct-04 {
-    background-color: #f3f3f3;
-    border-bottom: 1px solid #000;
-}
-.sct-01 {
-    /* background-color: antiquewhite; */
+.section01 {
+    background-color: #ececec;
+    height: 100vh;
     display: flex;
-    gap: 20px;
-
+    justify-content: center;
+    align-items: center;
 }
-.sct01-left {
-    width: 1100px;  height: 610px;
-    background-color: yellow;
-}
-.sct01-right {
-    background-color: green;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    
-}
-.sct01-rbox01 {
-    background-color: cornflowerblue;
-    flex-grow: 1;
-    
-}
-.sct01-rbox02 {
-    background-color: darkkhaki;
-    flex-grow: 1;
-}
-.sct-03 {
-    border:1px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* height: 600px;
-    align-content: space-between; */
-    row-gap: 20px;
-}
-.sct03-li {
-    border: 1px solid orange;
-    width: 427px; height: 246px;
-
-}
-footer {
-    border-bottom: 2px dashed #bfd6be;
-    /* width: 1920px; */
-    height: 68px;
+.sct-01-top-box {
+    width: 950px; height: 200px;
+    background-color: #AAEEF5;
+} 
+span {
+    border: 1px solid #000;
 }
