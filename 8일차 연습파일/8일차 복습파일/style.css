@@ -46,9 +46,13 @@ main {
 }
 .sct-03 {
     border:1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .sct03-li {
     border: 1px solid orange;
+    width: 427px; height: 246px;
 }
 footer {
     border-bottom: 2px dashed #bfd6be;
