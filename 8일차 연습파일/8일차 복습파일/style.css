@@ -49,6 +49,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    height: 600px;
+    align-content: space-between;
 }
 .sct03-li {
     border: 1px solid orange;
