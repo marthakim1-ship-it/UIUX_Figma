@@ -8,6 +8,7 @@ h2 {
 .w200 {
     padding: 100px 60px;
     border: 5px solid red;
+    text-align: center;
 }
 .w200-01 {
     padding-top: 100px;
@@ -36,6 +37,10 @@ h2 {
 }
 .title-bar {
     border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
 }
 .option-box {
     border: 3px solid blue;
@@ -48,12 +53,21 @@ h2 {
     background-color: #FFE4E4;
     flex-grow: 1;
 }
-
+.option-info {
+    padding: 5px 0;
+}
+h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    line-height: 10px;
+}
 h3 {
     color:#000;
     font-size: 24px;
-    font-weight: 50;
+    font-weight: 200;
     line-height: 10px;
     letter-spacing: -2px;
-    text-align: left;
+    /* text-align: left; */
 }
