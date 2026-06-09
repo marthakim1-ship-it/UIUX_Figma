@@ -46,22 +46,13 @@ h2 {
     border: 3px solid blue;
     background-color: #DBE8DB;
     display: flex;
+    width: 100%;
     gap: 10px;
 }
 .option01, .option02, .option03, .option04, .option05, .option06 {
     height: 439px;
     background-color: #FFE4E4;
     flex-grow: 1;
-}
-.option-info {
-    padding: 5px 0;
-}
-h4 {
-    margin: 0;
-    font-size: 14px;
-    font-weight: 400;
-    color: #000;
-    line-height: 10px;
 }
 h3 {
     color:#000;
