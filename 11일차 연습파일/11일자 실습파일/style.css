@@ -5,8 +5,7 @@
     display: flex;
     flex-direction: column;
     gap: 64px;
-    padding: 64px 0;
-}
+    padding: 64px 0;}
 .sale-top-box {
     background-color: #dbdbdb;
     height: 100%;
@@ -14,46 +13,38 @@
     display: flex;
     flex-direction: row;
     padding: 0 44px;
-    gap: 20px;
-}
+    gap: 20px;}
 .sale-list-box01, .sale-list-box02, .sale-list-box03 {
     width: 100%;
     background: #FFE3E3;
-    border: 1px solid #0011ff;
-}
+    border: 1px solid #0011ff;}
 .sale-image-box {
     width: 100%; height: 548px;
-    border: 1px solid #0011ff;
-}
+    border: 1px solid #0011ff;}
 .text-box-all {
     background-color: #FFF;
     width: 100%;
-    border: 1px solid #0011ff;
-}
+    border: 1px solid #0011ff;}
 .text-box01 {
     width: 100%;  
-    background-color: #FFF;
-}
+    background-color: #FFF;}
 .text-box02 {
     width: 100%;
-    background-color: #FFF;
-}
+    background-color: #FFF;}
 h2 {
     color: #000;
 font-family: Paperozi;
 font-size: 20px;
 font-style: normal;
 font-weight: 300;
-line-height: normal;
-}
+line-height: normal;}
 h3 {
 color: #000;
 font-family: Paperozi;
 font-size: 16px;
 font-style: normal;
 font-weight: 100;
-line-height: normal;
-}
+line-height: normal;}
 .sale-bottom-box {
     background-color: #568a85;
     height: 655px;
@@ -61,20 +52,17 @@ line-height: normal;
     display: flex;
     flex-direction: row;
     padding: 0 50px;
-    gap: 20px;
-}
+    gap: 20px;}
 .sale-list-bbox01, .sale-list-bbox02  {
     background-color: antiquewhite;
     width: 100%; height: 654px;
     display: flex;
     flex-direction: column;
     align-self: start;
-    gap: 14px;
-}
+    gap: 14px;}
 .sale-image-bbox {
     background-color: #d6b0b0;
-    width: 100%; height: 599px;
-}
+    width: 100%; height: 599px;}
 .sale-botton-box01, .sale-botton-box02 {
     width: 180px; height: 41px;
     display: flex;
@@ -83,13 +71,11 @@ line-height: normal;
     align-items: center;
     background-color: #dbdbdb;
     border-radius: 12px;
-    border: 1px solid #ff3d3d;
-}
+    border: 1px solid #ff3d3d;}
 h4 {
     color: #000;
 font-family: Felipa;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
-}
+line-height: normal;}
