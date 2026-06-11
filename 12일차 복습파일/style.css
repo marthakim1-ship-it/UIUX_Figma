@@ -5,8 +5,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
-    
 }
 .top-bar {
     width: 1760px;
@@ -16,6 +14,10 @@
 }
 .option-box {
     background-color: #aaaaaa;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 40px;
 }
 .option-box01 {
     width: 410px; height: 684px;
@@ -23,14 +25,32 @@
     border: 1px solid #4c00ff;
 }
 .image-box {
+    width: 410px;
+    height: 410px;
+    background-color: #E3E3E3;
 
 }
 .info-box {
-
+    width: 410px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 0;
 }
 h4 {
-
+    color: #000;
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
 }
 p {
-    
+    color: #000;
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
 }
