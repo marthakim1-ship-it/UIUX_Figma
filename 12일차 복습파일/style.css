@@ -1,0 +1,36 @@
+.sale-section {
+    width: 1920px;
+    background-color: #FFF;
+    border-bottom: 1px solid #a70000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+.top-bar {
+    width: 1760px;
+    background: #FFF;
+    padding: 64px 0 40px 0;
+    border-top: 1px solid #979797;
+}
+.option-box {
+    background-color: #aaaaaa;
+}
+.option-box01 {
+    width: 410px; height: 684px;
+    background-color: darkolivegreen;
+    border: 1px solid #4c00ff;
+}
+.image-box {
+
+}
+.info-box {
+
+}
+h4 {
+
+}
+p {
+    
+}
