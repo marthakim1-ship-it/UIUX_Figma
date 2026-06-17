@@ -6,13 +6,13 @@ main {
 }
 .bestsellers-section {
     border: 1px solid orange;
+    padding: 124px 80px;
 }
 .ul-nav {
     border: 1px solid green;
     display: flex;
     padding-top: 65px; padding-bottom: 65px;
     justify-content: space-between;
-    
 }
 .section-title {
     border: 1px solid blue;
@@ -22,6 +22,94 @@ main {
 }
 .amp-swiper {
     border: 1px solid green;
+    display: flex;
+}
+.best-product-list {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.best-product-list01 {border: 1px solid rgb(255, 0, 0);}
+.best-product-list02 {border: 1px solid rgb(170, 0, 0);}
+.best-product-list03 {border: 1px solid rgb(95, 0, 0);}
+.best-product-list04 {border: 1px solid rgb(54, 0, 0);}
+
+.product-img {
+    height: 410px;
+    border: 1px solid green;
+}
+.title-body01 {
+    border: 1px solid green;
+    padding-top: 40px; padding-bottom: 42px;
+}
+.title-body02 {
+    border: 1px solid green;
+    padding-bottom: 40px;
+}
+.title-body03 {
+    border: 1px solid green;
+    padding-top: 14px; padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.price {
+    border: 1px solid green;
+
+}
+.capacity {
+    border: 1px solid green;
+
+}
+.capacity-30ml {
+    border: 1px solid green;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px; /* 121.429% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+
+}
+.capacity-60ml {
+    border: 1px solid green;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 121.429% */
+
+}
+
+.best-pro-btn {
+    border: 1px solid #E1DED9;
+    background: #FFF;
+    /* flex-grow 임의값 410px */
+    flex: grow 1;
+    padding-top: 12px; padding-bottom: 12px;
+    color: #212529;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px; /* 150% */
+    letter-spacing: 0.06px;
+
+    /* text-transform: capitalize;
+    font-family: Raleway;
+    font-style: normal; */
+
+    transition: 0.3s;
+}
+.best-pro-btn:hover {
+    background-color: #212529;
+    color: #E1DED9;
 }
 footer {
     border: 1px solid red;
