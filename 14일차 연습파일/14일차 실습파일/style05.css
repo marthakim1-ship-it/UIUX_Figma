@@ -1,0 +1,11 @@
+.img-box04 {
+    background-color: red;
+    overflow: hidden;
+     width: 500px; height: 500px;
+     position: relative;
+}
+
+.img-box04 > img {
+   position: absolute;
+   left: 0;
+}

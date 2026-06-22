@@ -1,0 +1,6 @@
+.img-box01 {
+    background-color: red;
+}
+.img-box01 > img {
+    width: 500px;
+}
