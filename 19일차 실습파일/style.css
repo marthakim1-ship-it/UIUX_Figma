@@ -1,0 +1,65 @@
+
+.popup::before {
+    content: "";
+    width: 30px;
+}
+.popup {
+    padding-top: 12px; padding-bottom: 12px;
+    padding-left: 20px; padding-right: 20px;
+    text-align: center;
+    color: #000;
+    font-size: 10.3px;
+    font-weight: 400;
+    line-height: 15px; /* 145.631% */
+    background: #E8E8E8;
+    display: flex;
+    justify-content: space-between;
+
+}
+.popup::after {
+    content: "X";
+    font-size: 20px;
+    cursor: pointer;
+    width: 30px; text-align: right;
+}
+.top-bar {
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu01 {
+    display: flex; 
+    color: #000;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px; /* 136.364% */
+    text-transform: uppercase;
+}
+.menu01-ul {
+    display: flex;
+    align-items: center; gap: 16px;
+    color: #000;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px; /* 136.364% */
+    text-transform: uppercase;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    
+}
+.user-box {
+    display: flex; gap: 16px;
+    justify-content: right;
+    color: #000;
+    text-align: right;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px; /* 136.364% */
+    text-transform: uppercase;
+    width: 388px;
+
+}
