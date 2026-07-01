@@ -3,21 +3,38 @@ header {
 }
 .popup {
     padding-top: 12px; padding-bottom: 12px;
+    background-color:#E8E8E8 ;
+    text-align: center;
+    color: #000;
+    font-size: 10.3px;
+    font-weight: 400;
+    line-height: 15px; /* 145.631% */
 }
 
 .top-bar {
-    padding-top: 16px; padding-bottom: 20px;
+    padding-top: 16px; padding-bottom: 16px;
+    padding-left: 20px; padding-right: 20px;
     display: flex;
+    justify-content: space-between;
+    
 }
 .menu01 {
     width: 388px;
-    display: flex; gap: 16px;
-    align-items: center;
+
 }
 .menu01-ul {
+    border: 1px solid red;
     display: flex;
+    gap: 16px;
 }
-
+.m01-item {
+    display: flex; gap: 16px;
+    color: #000;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px; /* 136.364% */
+    text-transform: uppercase;
+}
 .menu02 {
     display: flex;
 }
@@ -25,5 +42,16 @@ header {
     display: flex;
 }
 .user-box-ul {
-    display: flex;
+    display: flex; gap: 16px;
+    border: 1px solid red;
+    width: 388px;
+    justify-content: flex-end;
+}
+.user-item {
+    color: #000;
+text-align: right;
+font-size: 11px;
+font-weight: 400;
+line-height: 15px; /* 136.364% */
+text-transform: uppercase;
 }
