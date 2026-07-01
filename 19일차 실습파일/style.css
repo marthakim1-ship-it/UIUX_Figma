@@ -38,7 +38,7 @@
 }
 .menu01-ul {
     display: flex;
-    align-items: center; gap: 16px;
+    align-items: stretch; gap: 16px;
     color: #000;
     font-size: 11px;
     font-weight: 400;
