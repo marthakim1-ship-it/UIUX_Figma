@@ -127,9 +127,7 @@
     display: flex; align-items: center;
 }
 .user-box {
-    width: 388px;
     display: flex;
-    justify-content:flex-end;
     /* align-items: stretch; */
 }
 .user-box-ul {
