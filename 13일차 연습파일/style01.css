@@ -11,9 +11,18 @@
 
 .section-title {
     border: 1px solid blue;
+    color: #333;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px; /* 120% */
 }
 .view-all {
     border: 1px solid blue;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
 }
 .amp-swiper {
     border: 1px solid green;
@@ -45,10 +54,16 @@
 .best-discount-title {
     border: 1px solid orange;
     padding-top: 40px; padding-bottom: 42px;
+    
 }
 .best-discount-subhead {
     border: 1px solid orange;
     padding-bottom: 40px;
+    color: #333;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
 }
 .best-price-capacity {
     border:1px solid orange;
@@ -58,15 +73,34 @@
 }
 .best-price {
     border: 1px solid orange;
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px; /* 106.25% */
+
 }
 .best-capacity {
     border: 1px solid orange;
 }
 .best-capacity-30ml {
     border: 1px solid orange;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px; /* 121.429% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
 }
 .best-capacity-60ml {
     border: 1px solid orange;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 121.429% */
 }
 .best-prp-btn {
     border: 1px solid #E1DED9;
